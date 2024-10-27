@@ -9,9 +9,9 @@
 
 void swap_func(int *a, int *b)
 {
-    int temp;
+	int temp;
 
-    temp = *a;
+	temp = *a;
 	*a = *b;
 	*b = temp;
 }
